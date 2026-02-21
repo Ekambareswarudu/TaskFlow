@@ -55,4 +55,9 @@ public class Task {
     @Column(name = "updated_at")
     @Builder.Default
     private LocalDateTime updatedAt = LocalDateTime.now();
+
+    public void setDueDate(String dueDate2) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setDueDate'");
+    }
 }
